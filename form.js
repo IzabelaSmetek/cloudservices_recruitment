@@ -32,7 +32,7 @@ describe('Fill in the form and go to the second step', function(){
     })
 
     it('Clicks "Dalej"', function(){
-        cy.get('.col-6')
+        cy.get('#form_button_next')
           .click()
 
     })
